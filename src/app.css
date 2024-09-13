@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color:#333;
+}
+.steps{
+    position: relative;
+    width: 600px;
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    padding: 25px 100px;
+    margin:100px auto;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.numbers > div {
+    background-color: #e1dded;
+    color: #160303;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.buttons button {
+    background-color: #7950f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 55px;
+}
+.message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+
+}
+.numbers .active {
+    background-color: #4f30c2;
+    color: #fff;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    left:10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+.close:hover {
+color: red;
+transition: transform;
+}
